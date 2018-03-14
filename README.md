@@ -2,6 +2,10 @@
 
 This project is a playground for students. It contains a simple *TCanvas* integrated into the Qt GUI. In theory the project should converge into a simple histogram extractor from the *.root files.
 
+<p align="center">
+  <img src="pics/window.png" width="75%"/>
+</p>
+
 ## Prerequisites
 
 - One needs ot have Qt installed (together with the QtCreator, better if you have local installation)
