@@ -13,11 +13,11 @@ TEMPLATE = app
 
 
 # ROOT INCLUDES
-unix:LIBS += -L/home/taras/Documents/Soft/root/lib -lCore -lCint -lRIO -lNet \
+unix:LIBS += -L/home/harankom/Soft/root_v5.34.34_install/lib -lCore -lCint -lRIO -lNet \
         -lHist -lGraf -lGraf3d -lGpad -lTree \
         -lRint -lPostscript -lMatrix -lPhysics \
         -lGui -lMathCore -lThread
-unix:INCLUDEPATH += /home/taras/Documents/Soft/root/include\
+unix:INCLUDEPATH += /home/harankom/Soft/root_v5.34.34_install/include\
 
 
 SOURCES += main.cpp\
