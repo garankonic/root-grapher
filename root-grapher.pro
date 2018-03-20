@@ -13,18 +13,20 @@ TEMPLATE = app
 
 
 # ROOT INCLUDES
-unix:LIBS += -L/home/harankom/Soft/root_v5.34.34_install/lib -lCore -lCint -lRIO -lNet \
+unix:LIBS += -L/home/taras/Documents/Soft/root/lib -lCore -lCint -lRIO -lNet \
         -lHist -lGraf -lGraf3d -lGpad -lTree \
         -lRint -lPostscript -lMatrix -lPhysics \
         -lGui -lMathCore -lThread
-unix:INCLUDEPATH += /home/harankom/Soft/root_v5.34.34_install/include\
+unix:INCLUDEPATH += /home/taras/Documents/Soft/root/include\
 
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    canvas.cxx
+    canvas.cxx \
+    qrootfile.cpp
 
 HEADERS  += mainwindow.h \
-    canvas.h
+    canvas.h \
+    qrootfile.h
 
 FORMS    += mainwindow.ui
